@@ -9,7 +9,8 @@
             int o= 5;
             if (o > i)
             {
-                Console.WriteLine("o on suurem kui i. aga kas  o on võrdne 5ga?");
+                Console.WriteLine("o on suurem kui i." +
+                    " aga kas  o on võrdne 5ga?");
                 if(o  == 5) 
                 {
                     Console.WriteLine("yep");
